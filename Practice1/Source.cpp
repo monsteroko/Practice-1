@@ -1,3 +1,9 @@
+/**
+* @file Source.cpp
+* @author Олейник О.К., гр. 515а
+* @date 25 июня 2018
+* @brief Летняя практика
+*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <math.h>
@@ -19,6 +25,10 @@ int main(void)
 	return 0;
 }
 
+/**
+* Расчёт уравнения прямой.
+*@param A1,B1,C1,D1,A2,B2,C2,D2 - коэффициенты плоскостей.
+*/
 void pryam(double A1, double B1, double C1, double D1, double A2, double B2, double C2, double D2)
 {
 	double x0, y0, x1, y1, d, dx, dy;
